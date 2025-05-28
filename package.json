@@ -4,7 +4,10 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/babel__core": "^7.20.5",
+=======
+>>>>>>> 0ef160b (Initial commit - Autofill Input with LRU)
     "@types/node": "^22.15.21",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
@@ -12,9 +15,18 @@
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
   },
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 0ef160b (Initial commit - Autofill Input with LRU)
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0ef160b (Initial commit - Autofill Input with LRU)
 }
