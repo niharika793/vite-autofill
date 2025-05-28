@@ -1,0 +1,63 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000; /* black background */
+  color: #ccc;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  /* Dark glittery purple effect */
+  background: linear-gradient(45deg, #4b0082, #800080, #6a0dad, #8a2be2);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glitter 3s ease-in-out infinite;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* Glitter shimmer animation */
+@keyframes glitter {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+input {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border: 2px solid #6a0dad;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90vw;
+  outline: none;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  background-color: #111;
+  color: #eee;
+  box-shadow: 0 0 10px #6a0dad88;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus {
+  box-shadow: 0 0 15px #8a2be2;
+  border-color: #8a2be2;
+}
