@@ -19,7 +19,8 @@ h1 {
   /* Dark glittery purple effect */
   background: linear-gradient(45deg, #4b0082, #800080, #6a0dad, #8a2be2);
   background-size: 400% 400%;
-  -webkit-background-clip: text;
+  background-clip: text;           /* Standard */
+  -webkit-background-clip: text;   /* Safari and Chrome */
   -webkit-text-fill-color: transparent;
   animation: glitter 3s ease-in-out infinite;
   font-weight: 900;
